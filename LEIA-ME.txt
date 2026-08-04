@@ -1,0 +1,14 @@
+Cláusulas Pétreas do Exército — frontend
+=========================================
+
+2 arquivos: index.html + bundle.js. Hospede junto (GitHub Pages,
+Netlify, ou onde já hospeda o MFC System).
+
+ANTES DE PUBLICAR: abra o index.html num editor de texto e troque a
+linha:
+  window.CP_API_BASE = "https://SUBSTITUA-PELA-URL-DO-SEU-BACKEND.up.railway.app";
+pela URL real do backend, depois de publicá-lo no Railway (veja o
+README.md dentro da pasta do backend).
+
+Sem essa troca, o app carrega mas não consegue logar nem carregar as
+proposições.
