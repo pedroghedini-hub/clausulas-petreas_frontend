@@ -1,14 +1,17 @@
-Cláusulas Pétreas do Exército — frontend
-=========================================
+Cláusulas Pétreas do Exército — frontend (PWA)
+=================================================
 
-2 arquivos: index.html + bundle.js. Hospede junto (GitHub Pages,
-Netlify, ou onde já hospeda o MFC System).
+Arquivos: index.html, bundle.js, manifest.json, sw.js, e os ícones
+(icon-192.png, icon-512.png, icon-maskable-512.png, apple-touch-icon.png).
 
-ANTES DE PUBLICAR: abra o index.html num editor de texto e troque a
-linha:
-  window.CP_API_BASE = "https://SUBSTITUA-PELA-URL-DO-SEU-BACKEND.up.railway.app";
-pela URL real do backend, depois de publicá-lo no Railway (veja o
-README.md dentro da pasta do backend).
+Sobe TODOS esses arquivos juntos, na mesma pasta, no repositório do
+GitHub Pages (substitui os antigos index.html e bundle.js, e adiciona
+os novos).
 
-Sem essa troca, o app carrega mas não consegue logar nem carregar as
-proposições.
+O index.html já está configurado com a URL do backend no Railway.
+
+INSTALAR NO CELULAR:
+- Android/Chrome: abre o site, menu (⋮) → "Adicionar à tela inicial"
+  (ou vai aparecer um banner automático oferecendo instalar).
+- iPhone/Safari: abre o site, toca no ícone de compartilhar (□↑),
+  "Adicionar à Tela de Início".
